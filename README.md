@@ -69,7 +69,7 @@ Remove content and replace:
 
     server {
         listen 80;
-        server_name your_domain_1.com;
+        server_name your_domain_2.com;
 
         location / {
                 proxy_pass http://your_server2_local_ip:port/;
